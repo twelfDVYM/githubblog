@@ -1,17 +1,15 @@
 export const siteConfig = {
-    name: 'Next.js GitHub Markdown Blog',
-    description: 'A modern blog platform powered by Next.js and GitHub Markdown',
-    url: 'https://your-domain.com',
-    ogImage: 'https://your-domain.com/og.jpg',
+    name: 'Drakensberg Massage Blog',
+    description: 'A modern blog platform powered by Next.js and GitHub Markdown, customized for DrakensbergMassage.co.za',
+    url: 'https://drakensbergmassage.co.za',
+    ogImage: 'https://drakensbergmassage.co.za/wp-content/uploads/2024/12/DBMLogoWeb-200h.png',
     links: {
-      github: 'https://github.com/yourusername/your-repo',
-      twitter: 'https://twitter.com/yourusername',
+      github: 'https://github.com/vee9168/DBMBlog',
     },
     postsPerPage: 10,
     defaultAuthor: {
-      name: 'Anonymous',
-      image: '/images/default-avatar.jpg',
+      name: 'Vee @ Drakensberg Massage',
+      image: 'https://drakensbergmassage.co.za/wp-content/uploads/2024/12/DBMLogoWeb-200h.png',
       bio: 'A mysterious writer',
     },
   };
-  
