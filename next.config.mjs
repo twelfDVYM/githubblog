@@ -27,6 +27,11 @@ const nextConfig = {
         hostname: "www.youtube.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "drakensbergmassage.co.za",
+        pathname: "/**",
+      },
     ],
   },
   async headers() {
