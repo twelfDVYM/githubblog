@@ -14,8 +14,8 @@ const ErrorBoundary = dynamic(() => import('@/components/ErrorBoundary'), {
 });
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Read our latest blog posts',
+  title: 'Drakensberg Massage Blog',
+  description: 'Read our latest blog posts from DrakensbergMassage.co.za',
 };
 
 export default async function BlogPage() {
@@ -24,18 +24,18 @@ export default async function BlogPage() {
 
     return (
       <ErrorBoundary fallback={<div className="text-center py-10">An error occurred while loading the blog posts. Please try again later.</div>}>
-        <main className="min-h-screen bg-gradient-to-b from-gray-100 to-white font-sans leading-normal tracking-normal">
-          <div className="w-full m-0 p-0 bg-cover bg-bottom relative" style={{
-            height: "60vh",
+        <main className="min-h-screen h-screen font-sans leading-normal tracking-normal">
+          <div className="w-full h-1/2 m-0 p-0 bg-cover bg-bottom relative" style={{
             maxHeight: "460px",
-            backgroundColor: "#4A90E2"
+            backgroundColor: "#e1c98b"
           }}>
-            <div className="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal relative z-10">
-              <h1 className="text-white font-extrabold text-3xl md:text-5xl mb-4">
+            <div className="container text-center break-normal relative z-10">
+              <img className="block m-auto mb-1" src="https://drakensbergmassage.co.za/wp-content/uploads/2024/12/DBMLogoWeb-200h.png" alt="Drakensberg Massage Logo" />
+              <h1 className="text-black font-semibold text-2xl md:text-6xl my-1">
                 Blog
               </h1>
-              <p className="text-xl md:text-2xl text-gray-200">
-                Thoughts, stories and ideas
+              <p className="text-black text-xl md:text-2xl">
+                Revitalise Naturally, Heal Deeply
               </p>
             </div>
           </div>
