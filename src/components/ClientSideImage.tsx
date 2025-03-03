@@ -19,7 +19,7 @@ const ClientSideImage: React.FC<ClientSideImageProps> = (props) => {
         if (onError) {
           onError(e);
         } else {
-          e.currentTarget.src = '/images/placeholder.jpg';
+          e.currentTarget.src = 'https://drakensbergmassage.co.za/wp-content/uploads/2024/12/DBMLogoWeb-200h.png';
           console.error('Failed to load image:', props.src);
         }
       }}
