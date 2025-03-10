@@ -46,7 +46,7 @@ const BlogPost: React.FC<{
         <header className="fixed w-full z-10 top-0 bg-white shadow">
           <ScrollProgressBar />
           <nav className="container mx-auto px-4 py-2">
-            <Link href="/blog" className="text-gray-800 hover:text-gray-600">
+            <Link href="/" className="text-gray-800 hover:text-gray-600">
               ← Back to Blog
             </Link>
           </nav>

@@ -52,7 +52,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['Inter var', 'sans-serif'],
+        sans: ['Times New Roman', 'sans-serif'],
       },
     },
   },

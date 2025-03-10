@@ -28,7 +28,7 @@ const BlogList: React.FC<{ posts: BlogPostProps[] }> = ({ posts }) => {
 const FeaturedPost: React.FC<{ post: BlogPostProps }> = ({ post }) => (
   <ErrorBoundary fallback={<div>Error loading featured post</div>}>
     <div className="flex flex-col md:flex-row h-full bg-white rounded-lg overflow-hidden shadow-lg mb-8">
-      <Link href={`/blog/${post.slug}`} className="flex flex-wrap no-underline hover:no-underline w-full">
+      <Link href={`/${post.slug}`} className="flex flex-wrap no-underline hover:no-underline w-full">
         <div className="w-full md:w-2/3 rounded-t md:rounded-l md:rounded-t-none">
           <ClientSideImage
             src={post.coverImage}
@@ -70,7 +70,7 @@ const RegularPost: React.FC<{ post: BlogPostProps }> = ({ post }) => (
   <ErrorBoundary fallback={<div>Error loading post</div>}>
     <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
       <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-        <Link href={`/blog/${post.slug}`} className="flex flex-wrap no-underline hover:no-underline">
+        <Link href={`/${post.slug}`} className="flex flex-wrap no-underline hover:no-underline">
           <ClientSideImage
             src={post.coverImage}
             alt={`Cover image for ${post.title}`}
