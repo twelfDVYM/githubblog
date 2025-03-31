@@ -35,7 +35,6 @@ export default async function BlogPage() {
             <h1 className="text-black font-semibold text-3xl sm:text-4xl md:text-6xl my-1">
             Blog
             </h1>
-            
           </div>
         </div>
 
