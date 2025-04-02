@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "Vee9168.github.io",
+        hostname: "**.github.io",
         pathname: "/**",
       },
       {
