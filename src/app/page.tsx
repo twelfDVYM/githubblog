@@ -29,7 +29,7 @@ export default async function BlogPage() {
           <div className="container mx-auto px-4 text-center break-normal relative z-10">
             <img
               className="block mx-auto mb-1 w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4"
-              src="https://drakensbergmassage.co.za/wp-content/uploads/2024/12/DBMLogoWeb-200h.png"
+              src="https://vee9168.github.io/DBMHost/DBMLogoWeb.png"
               alt="Drakensberg Massage Logo"
             />
             <h1 className="text-black font-semibold text-3xl sm:text-4xl md:text-6xl my-1">

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Next.js GitHub Markdown Blog for DrakensbergMassage.co.za',
     images: [
       {
-        url: 'https://drakensbergmassage.co.za/wp-content/uploads/2024/12/DBMLogoWeb-200h.png', // Add your own OG image
+        url: 'https://vee9168.github.io/DBMHost/DBMLogoWeb.png', // Add your own OG image
         width: 1200,
         height: 630,
         alt: 'Drakensberg Massage Logo',
