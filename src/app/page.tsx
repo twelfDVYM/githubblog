@@ -2,6 +2,7 @@
 import React from 'react';
 import { getBlogPosts } from '@/lib/getBlogPosts';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import { Metadata } from 'next';
 
 // Dynamically import client components
@@ -24,6 +25,13 @@ export default async function BlogPage() {
 
     return (
       <ErrorBoundary fallback={<div className="text-center py-10">An error occurred while loading the blog posts. Please try again later.</div>}>
+        <header className="w-full z-1 top-0 bg-white shadow">
+          <nav className="container mx-auto px-4 py-2">
+            <Link href="https://drakensbergmassage.co.za" className="text-gray-800 hover:text-gray-600 font-medium">
+              ← Back to drakensbergmassage.co.za
+            </Link>
+          </nav>
+        </header>
         <main className="min-h-screen h-screen font-sans leading-normal tracking-normal">
         <div className="w-full h-auto sm:h-1/2 m-0 p-0 bg-cover bg-bottom relative max-h-[460px] bg-[#e1c98b]">
           <div className="container mx-auto px-4 text-center break-normal relative z-10">

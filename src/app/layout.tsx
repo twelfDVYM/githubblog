@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://drakensbergmassage.co.za'), // Replace with your domain
+  metadataBase: new URL('https://blog.drakensbergmassage.co.za'), // Replace with your domain
   title: {
     default: 'Next.js GitHub Markdown Blog for DrakensbergMassage.co.za',
     template: '%s | Next.js GitHub Markdown Blog for DrakensbergMassage.co.za',
@@ -41,6 +41,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
        {/* <head>
         <GoogleAnalytics gaId="G-YOUR-ID" />
+        <Analytics />
       </head> */}
       <body className={`${inter.className} bg-gray-50`}>
         {children}
