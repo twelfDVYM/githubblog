@@ -106,5 +106,3 @@ const RegularPost: React.FC<{ post: BlogPostProps }> = ({ post }) => (
 );
 
 export default BlogList;
-
-

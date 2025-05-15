@@ -39,10 +39,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-       {/* <head>
-        <GoogleAnalytics gaId="G-YOUR-ID" />
+       <head>
         <Analytics />
-      </head> */}
+      </head>
       <body className={`${inter.className} bg-gray-50`}>
         {children}
       </body>
