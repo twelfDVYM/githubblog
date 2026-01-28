@@ -19,7 +19,7 @@ const ClientSideImage: React.FC<ClientSideImageProps> = (props) => {
         if (onError) {
           onError(e);
         } else {
-          e.currentTarget.src = 'https://vee9168.github.io/DBMHost/DBMLogoWeb.png';
+          e.currentTarget.src = 'https://V-Urquhart.github.io/DBMHost/DBMLogoWeb.png';
           console.error('Failed to load image:', props.src);
         }
       }}

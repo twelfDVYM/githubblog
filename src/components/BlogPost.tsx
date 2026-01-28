@@ -178,7 +178,7 @@ const BlogPost: React.FC<{
           </p>
           <div className="flex justify-center space-x-4 mt-4">
             <a
-              href="https://github.com/vee9168"
+              href="https://github.com/V-Urquhart"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
