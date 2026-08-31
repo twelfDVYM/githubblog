@@ -62,7 +62,7 @@ const customRenderer: Plugin<[], Root> = () => {
               'duration-200',
             ];
             props.target = '_blank';
-            props.rel = 'noopener noreferrer';
+            props.rel = ['noopener noreferrer'];
             break;
           case 'ul':
             props.className = ['list-disc', 'list-inside', 'mb-4', 'space-y-2'];
